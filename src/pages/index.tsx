@@ -1,9 +1,9 @@
-export default function Home() {
-  const g = 'hi'
+import Main from '../components/Main'
 
+export default function Home() {
   return (
     <div>
-      <h1>My boilerplate</h1>
+      <Main />
     </div>
   )
 }
