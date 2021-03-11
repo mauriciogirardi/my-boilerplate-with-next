@@ -8,6 +8,12 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
 
+  body,
+  html,
+  #__next{
+    height: 100%;
+  }
+
   button,
   body,
   textarea,
@@ -21,9 +27,8 @@ export default createGlobalStyle`
     cursor: pointer;
   }
 
-  body,
   html {
-    height: 100%;
+    font-size: 62.5%;
   }
 
   a {
@@ -31,7 +36,7 @@ export default createGlobalStyle`
     color: inherit;
   }
 
-  @media (max-width: 1000px) {
+  /* @media (max-width: 1000px) {
     html {
       font-size: 93.75%;
     }
@@ -41,6 +46,6 @@ export default createGlobalStyle`
     html {
       font-size: 87.5%;
     }
-  }
+  } */
 
 `
